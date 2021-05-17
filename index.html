@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <!-- Row: View High Scores + Timer -->
+        <div class="row">
+            <div class="col-2" id="highscores">View High Scores</div>
+            <div class="col-8"></div>
+            <div class="col-2" id="countdown">Time Remaining:</div>
+        </div>
+        <!-- Row: Question -->
+        <div class="row">
+            <div class="col"></div>
+            <div id="main" class="col-9">
+                <div id="question"></div>
+                <ul id="answers">
+                    <li>
+                        <button type="button" id="answer1" class="btn btn-primary"></button>
+                    </li>
+                    <li>
+                        <button type="button" id="answer2" class="btn btn-primary"></button>
+                    </li>
+                    <li>
+                        <button type="button" id="answer3" class="btn btn-primary"></button>
+                    </li>
+                    <li>
+                        <button type="button" id="answer4" class="btn btn-primary"></button>
+                    </li>               
+                </ul>
+                <div id="result">Result: </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+ 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="./script.js"></script>
+
+</body>
+
+</html>

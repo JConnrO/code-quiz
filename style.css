@@ -1,0 +1,17 @@
+.btn-primary {
+    color:white;
+    background-color:purple;
+
+}
+#question {
+    font-size: 36px;
+    font-weight: bold;
+}
+#result {
+    font-size: 24px;
+    font-weight: bold;
+}
+#submit {
+    color:white;
+    background-color:purple;
+}
