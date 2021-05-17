@@ -72,27 +72,6 @@ function renderHighScore(){
       });
       
 }
-function renderIntro(){
-    var qna = document.querySelector("#qna");
-    var format = 
-    `   <div id="question"></div>
-        <ul id="answers">
-            <li>
-                <button type="button" id="answer1" class="btn btn-primary"></button>
-            </li>
-            <li>
-                <button type="button" id="answer2" class="btn btn-primary"></button>
-            </li>
-            <li>
-                <button type="button" id="answer3" class="btn btn-primary"></button>
-            </li>
-            <li>
-                <button type="button" id="answer4" class="btn btn-primary"></button>
-            </li>               
-        </ul>
-        <div id="result">Result: </div>`;
-    qna.innerHTML = format;
-}
 function updateTime(){
     time_left--;
     countdownHTML.textContent = "Time Remaing:" +time_left;
